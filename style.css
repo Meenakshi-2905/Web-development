@@ -1,45 +1,63 @@
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin:0;
     padding:0;
-    .div1{
-        margin: 50px;
-        background-color: burlywood;
-        font-color: black;
-        display:flex;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    .div2{
-        margin: 50px;
-        background-color: blue;
-        font-color: violet;
-        display:flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
+    font-family:"Poppins",sans-serif;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 10px;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    padding: 14px;
+}
+.click{
+    background-color: rgb(52, 52, 184);
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+    border:none;
+     font-weight:600;
+     font-size: 16px;
+}
+.blue{
+    color:royalblue;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 100px 0px 100px;
+}
+.left p{
+    width : 30ch;
+}
 
-    }
-    .div3{
-        margin: 50px;
-        background-color: black;
-        font-color: white;
-        display:flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-    }
-    .img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-    }
-    .div4{
-        margin: 50px;
-        height: 500px;
-        width: 100%;
-        background-color: indianred;
-        font-color: white;
-        
-    }
+.cta{
+    margin-top: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+}
+.right img{
+    margin-top: 100px;
+}
+.hero-image{
+    width: 500px;
+    height: 500px;
 }
